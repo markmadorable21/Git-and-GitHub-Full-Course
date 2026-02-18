@@ -129,3 +129,4 @@ merging = combine the changes of all branches
   git merge bug_fix -m "merged bug_fix into master branch"
 
 Merge conflicts
+
