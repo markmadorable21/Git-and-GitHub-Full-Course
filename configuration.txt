@@ -114,5 +114,9 @@ you create a branch bug_fix to work for a bug fix, then after fixing the bug in 
   git checkout bug_fix
 
 merging = combine the changes of all branches
+ when you merge, the result will be saved in the current branch
+ for example, current branch is master, and you want to merge the branch bug_fix to master branch, so the changes in bug_fix branch will be merged into the master branch
+ the result is that a new commit will be placed on top of bug_fix branch
 
-
+3. to merge bug_fix into the master branch (the current branch should be the master branch)
+  git merge bug_fix -m "merged bug_fix into master branch"
