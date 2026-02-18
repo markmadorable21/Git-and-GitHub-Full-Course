@@ -130,3 +130,13 @@ merging = combine the changes of all branches
 
 Merge conflicts
 
+Feature branches = a workflow, a step-by-step process of using Git and GitHub
+= creating branch for a new feature
+
+Code Reviews = before your feature to be deployed, it needs to be reviewed by software engineer for bugs and mistakes
+
+Feature Branch workflow
+1. creating a feature branch
+2. upload feature branch to GH
+3. create a "pull request" (do code reviews, test)
+4. merge feature branch into master/main branch (merging happens on GH)
