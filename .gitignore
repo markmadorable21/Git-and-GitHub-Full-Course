@@ -1,2 +1,5 @@
 *.mp4
 *.png
+
+# to ignore a specific file 
+# hello.txt
