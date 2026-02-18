@@ -103,6 +103,12 @@ Tutorial 2
 Tutorial 3
 
 there is only 1 HEAD, and it is current branch you opened in the editor.
+the green text master pointed at the latest commit.
+the green text bug_fix pointed also at the latest commit in its own branch.
+the red text origin/master means that the GH remote repo origin branch has this latest commit into your local repo main branch master.
+the red text origin/HEAD is the head of GH origin remote repo branch origin.
+the red text origin/bug_fix is where the latest GH commit for the local branch bug_fix.
+
 
 branching = working on multiple things at the same time
 main branch = main/origin branch
