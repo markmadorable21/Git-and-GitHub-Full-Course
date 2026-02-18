@@ -16,8 +16,12 @@
 
 6. git commit -m "message" (commit=version, m means we are attaching a message to the version or commit)
 
-7. git log
+7. git log 
   to exit, press q
+  to get all commit history
+    git log --all
+  to get branches of history
+    git log --all --graph
 
 8. to remove staged file config.js type manually:
   git reset config.js
@@ -34,3 +38,43 @@
 
 11. to go back to a particular commit uisng a commit hash 4ad3307c09611d7f27e8fe1e872f798830f59092
   git checkout 4ad3307c09611d7f27e8fe1e872f798830f59092
+
+12. to go back to a branch name master
+  git checkout master
+
+13. to go back a version of a specific file config.js with commit hash 4ad3307c09611d7f27e8fe1e872f798830f59092
+  git checkout 4ad3307c09611d7f27e8fe1e872f798830f59092 config.js
+
+14. to go back a version of a specific folder src with commit hash 4ad3307c09611d7f27e8fe1e872f798830f59092
+  git checkout 4ad3307c09611d7f27e8fe1e872f798830f59092 src
+
+15. to go back to a previous version or commit without moving the HEAD
+  git checkout 4ad3307c09611d7f27e8fe1e872f798830f59092 .
+
+16. to set an alias or shortcut for git command git status using letter s
+  git config --global alias.s "status"
+
+17. to set an alias or shortcut for git command git commit -m using letter command
+  git config --global alias.cm "commit -m" 
+
+18. to remove git from the main folder
+  rm -rf .git
+
+git repository = a repository with changes monitored by git
+
+local repo = repo inside our computer
+
+remote repo = online
+
+19. add a remote repo with nickname origin and url https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git
+  git remote add origin https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git
+  to check:
+  git remote
+  to have more details:
+  git remote -v
+
+20. to remove a remote repo origin
+  git remote remove origin
+
+21. 
+ 
