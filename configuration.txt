@@ -17,6 +17,7 @@
 6. git commit -m "message" (commit=version, m means we are attaching a message to the version or commit)
 
 7. git log
+  to exit, press q
 
 8. to remove staged file config.js type manually:
   git reset config.js
