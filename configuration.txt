@@ -30,3 +30,6 @@
   git checkout -- config.js
   for all files:
   git checkout -- .
+
+11. to go back to a particular commit uisng a commit hash 4ad3307c09611d7f27e8fe1e872f798830f59092
+  git checkout 4ad3307c09611d7f27e8fe1e872f798830f59092
