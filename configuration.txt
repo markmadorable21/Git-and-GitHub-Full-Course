@@ -66,19 +66,43 @@ local repo = repo inside our computer
 
 remote repo = online
 
-19. add a remote repo with nickname origin and url https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git
-  git remote add origin https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git
+Tutorial 2
+1. add an existing GH remote repo with nickname origin and url https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git
+    git remote add origin https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git
   to check:
-  git remote
+    git remote
   to have more details:
-  git remote -v
+    git remote -v
 
-20. to remove a remote repo origin
+2. to remove a remote repo origin
   git remote remove origin
 
-21. before pull/push to GitHub, we need to configure git with out GH username
+3. before pull/push to GitHub, we need to configure git with out GH username
   git config --global credential.username "markazjudaya@gmail.com"
   
-22. to upload from local branch master commit to remote origin
-  git push origin master
- 
+4. to upload from local branch master commit to remote origin
+    git push origin master
+  setting a shortcut git push fo the same branch to just typing "git push" only next time:
+    origin master --set-upstream
+  to force pushing to remote repo:
+    git push origin master -f
+
+23. to clone an existing GH repo into our local computer
+  cd main_folder_path
+  git clone https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git (this will create a local repo folder named Git-and-GitHub-Full-Course, but we can specify new new folder name by entering the command below)
+  git clone https://github.com/markmadorable21/Git-and-GitHub-Full-Course.git new_folder_name
+
+24. to update local computer A from the current state of GH repo that was modified from other local computer B:
+    git fetch (this will show that the local computer A repo is behind from the HEAD of GH origin branch)
+    git pull origin master
+    git log --all --graph (to check)
+    git pull origin master --set-upstream (setting shortcut to pull auto to GH remote repo without retyping the GH origin branch from local branch master)
+      git pull  
+
+
+Tutorial 3
+
+branching = working on multiple things at the same time
+
+
+
