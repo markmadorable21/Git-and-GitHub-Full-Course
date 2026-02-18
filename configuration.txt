@@ -103,6 +103,14 @@ Tutorial 2
 Tutorial 3
 
 branching = working on multiple things at the same time
+main branch = main/origin branch
+scenario:
+you create a branch bug_fix to work for a bug fix, then after fixing the bug in bug_fix branch, you merge the branch into the main branch and continue creating the feature in the original main branch
 
+1. creating a branch bug_fix
+  git branch bug_fix (naming branch is based on what you're working on)
+
+2. switching branch bug_fix
+  git checkout bug_fix
 
 
