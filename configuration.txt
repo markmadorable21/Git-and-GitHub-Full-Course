@@ -76,5 +76,9 @@ remote repo = online
 20. to remove a remote repo origin
   git remote remove origin
 
-21. 
+21. before pull/push to GitHub, we need to configure git with out GH username
+  git config --global credential.username "markazjudaya@gmail.com"
+  
+22. to upload from local branch master commit to remote origin
+  git push origin master
  
