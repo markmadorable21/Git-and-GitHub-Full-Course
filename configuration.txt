@@ -102,6 +102,8 @@ Tutorial 2
 
 Tutorial 3
 
+there is only 1 HEAD, and it is current branch you opened in the editor.
+
 branching = working on multiple things at the same time
 main branch = main/origin branch
 scenario:
@@ -120,3 +122,4 @@ merging = combine the changes of all branches
 
 3. to merge bug_fix into the master branch (the current branch should be the master branch)
   git merge bug_fix -m "merged bug_fix into master branch"
+
