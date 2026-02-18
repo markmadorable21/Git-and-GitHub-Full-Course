@@ -140,3 +140,6 @@ Feature Branch workflow
 2. upload feature branch to GH
 3. create a "pull request" (do code reviews, test)
 4. merge feature branch into master/main branch (merging happens on GH)
+5. update local repo after merge by typing:
+    git fetch
+    git 
