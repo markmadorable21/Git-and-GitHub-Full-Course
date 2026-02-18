@@ -115,7 +115,9 @@ scenario:
 you create a branch bug_fix to work for a bug fix, then after fixing the bug in bug_fix branch, you merge the branch into the main branch and continue creating the feature in the original main branch
 
 1. creating a new branch bug_fix
-  git branch bug_fix (naming branch is based on what you're working on)
+    git branch bug_fix (naming branch is based on what you're working on)
+  to delete a branch bug_fix:
+    git branch -D bug_fix
 
 2. switching branch bug_fix
   git checkout bug_fix
@@ -139,7 +141,10 @@ Feature Branch workflow
 1. creating a feature branch
 2. upload feature branch to GH
 3. create a "pull request" (do code reviews, test)
-4. merge feature branch into master/main branch (merging happens on GH)
+4. merge feature branch on GitHub into master/main branch
 5. update local repo after merge by typing:
     git fetch
-    git 
+    git pull origin master
+
+Merge Conflicts in Feature Branch
+
