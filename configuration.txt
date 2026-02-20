@@ -118,6 +118,8 @@ you create a branch bug_fix to work for a bug fix, then after fixing the bug in 
     git branch bug_fix (naming branch is based on what you're working on)
   to delete a branch bug_fix:
     git branch -D bug_fix
+  to delete GH remote branch:
+    git push origin --delete
 
 2. switching branch bug_fix
   git checkout bug_fix
